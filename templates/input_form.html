@@ -56,8 +56,6 @@
         <label for="gender">Gender</label>
         <input type="text"  id="gender" name="gender" placeholder="Type M for  male and F for Female"><br><br>
         
-        <label for="RBC">RBC (Red Blood Cell count):</label>
-<input type="number" step="0.01" id="RBC" name="RBC"><br><br>
 
 <label for="RBC">RBC (Red Blood Cell count):</label>
 <div style="display: flex; align-items: center;">
@@ -70,127 +68,140 @@
 <label for="MCV">MCV (Mean Corpuscular Volume):</label>
 <div style="display: flex; align-items: center;">
 <input type="number" step="0.01" id="MCV" name="MCV"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<span style="margin-left: 10px;">× fL</span>
 </div><br><br>
 
+        
+<label for="HCT">HCT (Hematocrit):</label>
+<div style="display: flex; align-items: center;">
+<input type="number" step="0.01" id="HCT" name="HCT"><br><br>
+<span style="margin-left: 10px;">× L/L</span>
+</div><br><br>
+        
 <label for="Hb">Hemoglobin (hb):</label>
 <div style="display: flex; align-items: center;">
 <input type="number" step="0.01" id="Hb" name="Hb"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<span style="margin-left: 10px;">× g/L</span>
 </div><br><br>
 
-<label for="Iron">Iron:</label>
-<div style="display: flex; align-items: center;">
-<input type="number" step="0.01" id="Iron" name="Iron"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
-</div><br><br>
-
+        
 <label for="WBC">WBC (White Blood Cell count):</label>
 <div style="display: flex; align-items: center;">
 <input type="number" step="0.01" id="WBC" name="WBC"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<span style="margin-left: 10px;">× 10<sup>9</sup> cells/L</span>
 </div><br><br>
 
-<label for="CRP">CRP (C-reactive protein):</label>
+        
+
+<label for="MonocyteAbs">Monocyte Absolute Number:</label>
 <div style="display: flex; align-items: center;">
-<input type="number" step="0.01" id="CRP" name="CRP"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<input type="number" step="0.01" id="MonocyteAbs" name="MonocyteAbs"><br><br>
+<span style="margin-left: 10px;">× 10<sup>9</sup> cells/L</span>
+</div><br><br>
+        
+<label for="Neutrophil">Neutrophil Absolute Number:</label>
+<div style="display: flex; align-items: center;">
+<input type="number" step="0.01" id="Neutrophil" name="Neutrophil"><br><br>
+<span style="margin-left: 10px;">× 10<sup>9</sup> cells/L</span>
 </div><br><br>
 
-<label for="Lymphocyte">Lymphocyte count:</label>
-<div style="display: flex; align-items: center;">
-<input type="number" step="0.01" id="Lymphocyte" name="Lymphocyte"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
-</div><br><br>
-
-<label for="ESR">ESR (Erythrocyte Sedimentation Rate):</label>
-<div style="display: flex; align-items: center;">
-<input type="number" step="0.01" id="ESR" name="ESR"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
-</div><br><br>
+        
 
 <label for="Monocyte">Monocyte number:</label>
 <div style="display: flex; align-items: center;">
 <input type="number" step="0.01" id="Monocyte" name="Monocyte"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<span style="margin-left: 10px;">× 10<sup>9</sup> cells/L</span>
 </div><br><br>
-
-<label for="LDH">LDH (Lactate Dehydrogenase):</label>
+        
+<label for="Lymphocyte">Lymphocyte count:</label>
 <div style="display: flex; align-items: center;">
-<input type="number" step="0.01" id="LDH" name="LDH"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<input type="number" step="0.01" id="Lymphocyte" name="Lymphocyte"><br><br>
+<span style="margin-left: 10px;">× 10<sup>9</sup> cells/L</span>
 </div><br><br>
 
 <label for="PLT">PLT (Platelet count):</label>
 <div style="display: flex; align-items: center;">
 <input type="number" step="0.01" id="PLT" name="PLT"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<span style="margin-left: 10px;">× 10<sup>9</sup> cells/L</span>
 </div><br><br>
 
-<label for="HCT">HCT (Hematocrit):</label>
+        
+<label for="CRP">CRP (C-reactive protein):</label>
 <div style="display: flex; align-items: center;">
-<input type="number" step="0.01" id="HCT" name="HCT"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<input type="number" step="0.01" id="CRP" name="CRP"><br><br>
+<span style="margin-left: 10px;">× mg/L</span>
 </div><br><br>
+        
+<label for="ESR">ESR (Erythrocyte Sedimentation Rate):</label>
+<div style="display: flex; align-items: center;">
+<input type="number" step="0.01" id="ESR" name="ESR"><br><br>
+<span style="margin-left: 10px;">× mm/hour</span>
+</div><br><br>
+
+        
+<label for="LDH">LDH (Lactate Dehydrogenase):</label>
+<div style="display: flex; align-items: center;">
+<input type="number" step="0.01" id="LDH" name="LDH"><br><br>
+<span style="margin-left: 10px;">× U/L</span>
+</div><br><br>
+
+<label for="Iron">Iron:</label>
+<div style="display: flex; align-items: center;">
+<input type="number" step="0.01" id="Iron" name="Iron"><br><br>
+<span style="margin-left: 10px;">× umol/L</span>
+</div><br><br>
+
+
+
+
 
 <label for="Urea">Urea:</label>
 <div style="display: flex; align-items: center;">
 <input type="number" step="0.01" id="Urea" name="Urea"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<span style="margin-left: 10px;">× mmol/L</span>
 </div><br><br>
 
 <label for="Creat">Creatinine (Creat):</label>
 <div style="display: flex; align-items: center;">
 <input type="number" step="0.01" id="Creat" name="Creat"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<span style="margin-left: 10px;">× umol/L</span>
 </div><br><br>
 
 <label for="Calcium">Calcium:</label>
 <div style="display: flex; align-items: center;">
 <input type="number" step="0.01" id="Calcium" name="Calcium"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<span style="margin-left: 10px;">× umol/L</span>
+</div><br><br>
+        
+<label for="Albumin">Albumin:</label>
+<div style="display: flex; align-items: center;">
+<input type="number" step="0.01" id="Albumin" name="Albumin"><br><br>
+<span style="margin-left: 10px;">× g/L</span>
 </div><br><br>
 
-<label for="Neutrophil">Neutrophil Absolute Number:</label>
-<div style="display: flex; align-items: center;">
-<input type="number" step="0.01" id="Neutrophil" name="Neutrophil"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
-</div><br><br>
-
-<label for="MonocyteAbs">Monocyte Absolute Number:</label>
-<div style="display: flex; align-items: center;">
-<input type="number" step="0.01" id="MonocyteAbs" name="MonocyteAbs"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
-</div><br><br>
 
 <label for="Bilirubin">Total Bilirubin:</label>
 <div style="display: flex; align-items: center;">
 <input type="number" step="0.01" id="Bilirubin" name="Bilirubin"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<span style="margin-left: 10px;">× umol/L</span>
 </div><br><br>
 
 <label for="Ferritin">Ferritin:</label>
 <div style="display: flex; align-items: center;">
 <input type="number" step="0.01" id="Ferritin" name="Ferritin"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
-</div><br><br>
-
-<label for="Albumin">Albumin:</label>
-<div style="display: flex; align-items: center;">
-<input type="number" step="0.01" id="Albumin" name="Albumin"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<span style="margin-left: 10px;">× ng/mL</span>
 </div><br><br>
 
 <label for="VitB12">Vitamin B12 (Vit B12):</label>
 <div style="display: flex; align-items: center;">
 <input type="number" step="0.01" id="VitB12" name="VitB12"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<span style="margin-left: 10px;">× ng/L</span>
 </div><br><br>
 
 <label for="Folate">Folate:</label>
 <div style="display: flex; align-items: center;">
 <input type="number" step="0.01" id="Folate" name="Folate"><br><br>
-<span style="margin-left: 10px;">× 10<sup>12</sup> cells/L</span>
+<span style="margin-left: 10px;">× ug/L</span>
 </div><br><br>
         
         <button type="submit">Submit</button>
